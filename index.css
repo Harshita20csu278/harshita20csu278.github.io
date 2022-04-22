@@ -1,0 +1,100 @@
+    main {
+        background-image: url('pictures/earth_day_pic.gif');
+        height: 110vh;
+        background-size: 100% 120vh;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        width: 100%;
+        justify-content: space-between;
+        position: relative;
+        top: -8%;
+        margin-left: 55;
+    }
+    
+    #icon {
+        font-family: 'Sacramento', cursive;
+        font-size: 130px;
+        text-shadow: 2px 2px 2px;
+        text-align: center;
+        margin-left: 50px;
+        top: 20px;
+        position: relative;
+    }
+    
+    #nav1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0%;
+        margin-right: 5%;
+        padding: 2px;
+    }
+    
+    #nav1 a {
+        color: black;
+        font-weight: 600;
+        font-size: 20px;
+        margin-right: 24px;
+        cursor: pointer;
+        font-family: 'Poppins', 'Sans-serif';
+        text-decoration: none;
+    }
+    
+    button {
+        width: 90px;
+        height: 40px;
+        background-color: rgb(245, 212, 212);
+        border: 0px;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: black;
+        padding-left: 12px;
+    }
+    
+    button:hover {
+        box-shadow: 0.5px 0.5px 5px black;
+    }
+    
+    #main-text p {
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        background-color: white;
+        margin: auto auto;
+        width: 500px;
+        font-weight: 200;
+        position: relative;
+        right: -350px;
+        bottom: -350px;
+        padding: 1%;
+        border-radius: 4px;
+    }
+    
+    #main-text h2 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        border-radius: 4px;
+        width: fit-content;
+        align-items: center;
+        margin: auto auto;
+    }
+    
+    footer {
+        background-color: rgb(220, 221, 180);
+        height: 60px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        font-size: 24px;
+        padding-top: 20px;
+    }
